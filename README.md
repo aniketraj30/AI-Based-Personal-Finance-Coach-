@@ -1,18 +1,27 @@
-# Welcome to your Lovable project
+AI-Based Personal Finance Coach 💰🤖
+An intelligent personal finance management application that leverages AI, NLP, and real-time analytics to help users budget smarter, track expenses, and receive personalized investment recommendations.
 
-## Project info
+🚀 Features
+Personalized Budgeting – Set spending goals and track them effortlessly.
 
-**URL**: https://lovable.dev/projects/ed9b3022-4ea4-4143-9559-2a68614fb083
+AI-Powered Insights – Get financial advice and recommendations using NLP with OpenAI GPT.
 
-## How can I edit this code?
+Expense Tracking – Log daily expenses and visualize spending patterns.
 
-There are several ways of editing your application.
+Investment Suggestions – AI analyzes your spending and suggests investment opportunities.
 
-**Use Lovable**
+Real-Time Analytics Dashboard – View interactive charts and reports on your finances.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ed9b3022-4ea4-4143-9559-2a68614fb083) and start prompting.
+🛠 Tech Stack
+Frontend: React, TypeScript, Tailwind CSS, ShadCN-UI
 
-Changes made via Lovable will be committed automatically to this repo.
+Backend: Node.js, Express.js, Flask (for AI integration)
+
+Database: MongoDB
+
+AI & NLP: OpenAI GPT API
+
+Deployment: AWS / Render
 
 **Use your preferred IDE**
 
@@ -23,17 +32,18 @@ The only requirement is having Node.js & npm installed - [install with nvm](http
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1️⃣ Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2️⃣ Navigate into the project
+cd ai-finance-coach
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3️⃣ Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4️⃣ Run the development server
 npm run dev
+
 ```
 
 **Edit a file directly in GitHub**
@@ -59,15 +69,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ed9b3022-4ea4-4143-9559-2a68614fb083) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
