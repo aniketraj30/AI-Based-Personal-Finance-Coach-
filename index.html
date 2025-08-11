@@ -20,7 +20,17 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <noscript><p>JavaScript is required to run this app.</p></noscript>
+      <div id="app-loading" style="display:flex;min-height:100dvh;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#475569">Loading FinCoach AI...</div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Remove fallback once React mounts
+      window.addEventListener('DOMContentLoaded', () => {
+        const el = document.getElementById('app-loading');
+        if (el) el.remove();
+      });
+    </script>
   </body>
 </html>
